@@ -1,12 +1,12 @@
-title:              Clean Blog
+title:              TITLE?
 email:              psj216@gmail.com
-description:        테스트 블로그
+description:        Datascience, Python, Development....
 author:             Seokjong Park
 baseurl:            ""
 url:                "https://seokjong.github.io/"
 
 # Social Profiles
-twitter_username:   
+twitter_username:
 github_username:    seokjong
 facebook_username:
 linkedin_username:
