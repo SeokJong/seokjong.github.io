@@ -1,5 +1,7 @@
 // Mixins
 // Bootstrap Button Variant
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Gothic:wght@700&family=Nanum+Myeongjo:wght@700&display=swap');
+
 @mixin button-variant($color, $background, $border) {
   color: $color;
   border-color: $border;
@@ -61,8 +63,8 @@
   background-size: cover;
 }
 @mixin serif-font() {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Nanum Myeongjo', 'Lora', 'Times New Roman', serif;
 }
 @mixin sans-serif-font() {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Nanum Gothic', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
