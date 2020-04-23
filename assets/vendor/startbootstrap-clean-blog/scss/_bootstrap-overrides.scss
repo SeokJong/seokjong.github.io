@@ -38,21 +38,6 @@
   font-weight: bold;
 }
 
-@media (max-width: 995px){
-  .site-category{
-    font-size:15px;
-  }
-}
-
-@media (max-width: 700px){
-  .site-category{
-    font-size:8px;
-  }
-}
-
-
-
-
   .site-category ul{
   //background: rgb(109,109,109);
   height:50px;
@@ -132,4 +117,25 @@
   border:0px;
   color:#ffffff;
   text-decoration:none;
+  }
+
+
+  @media (max-width: 995px){
+    .site-category{
+      font-size:15px;
+    }
+
+    .site-category li a{
+      padding:0px 15px;
+    }
+  }
+
+  @media (max-width: 600px){
+    .site-category{
+      font-size:12px;
+    }
+
+    .site-category li a{
+      padding:0px 8px;
+    }
   }
