@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Python
-permalink: '/Python'
+title: Development Enviroment
+permalink: '/DE'
 ---
 
 {% assign category = page.category | default: page.title %}
