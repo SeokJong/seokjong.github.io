@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "블로그 만들기."
-subtitle: "이 블로그를 만들면서의 경험과 정리."
-categories : [Retrospective]
+tags: Retrospective
 ---
 
 평소에 블로그를 만들어야 한다는 생각은 하고 있엇지만 선뜻 손이 가지는 않았다.

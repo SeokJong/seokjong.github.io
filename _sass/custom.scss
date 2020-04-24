@@ -1,0 +1,126 @@
+/* start custom scss snippet */
+.site-category{
+  margin:auto;
+  padding:0;
+  font-size:25px;
+  text-align: center;
+  clear:left;
+  font-weight: bold;
+}
+
+  .site-category ul{
+  //background: rgb(109,109,109);
+  height:50px;
+  list-style:none;
+  line-height: 1.5;
+  margin:0 auto;
+  padding:0;
+  display:inline-block;
+  }
+
+  .site-category li{
+  float: left;
+  display:inline;
+
+  }
+
+  .site-category li a{
+  display:block;
+  font-weight:normal;
+  line-height:50px;
+  margin:0px;
+  padding:0px 25px;
+  text-align:center;
+  text-decoration:none;
+  color:#325f74;
+  }
+
+  .site-category li a:hover{
+  background: #7cc7bb;
+  color:#bb6170;
+  text-decoration:none;
+  }
+
+  .site-category li ul{
+  background: rgb(109,109,109);
+  display:none; /* 평상시에는 드랍메뉴가 안보이게 하기 */
+  height:auto;
+  padding:0px;
+  margin:0px;
+  border:0px;
+  position:absolute;
+  width:200px;
+  z-index:200;
+  /*top:1em;
+  /*left:0;*/
+  }
+
+  .site-category li:hover ul{
+  display:block; /* 마우스 커서 올리면 드랍메뉴 보이게 하기 */
+  }
+
+  .site-category li li {
+  display:block;
+  float:none;
+  margin:0px;
+  padding:0px;
+  width:200px;
+  }
+
+  .site-category li:hover li a{
+  background:none;
+  }
+
+  .site-category li ul a{
+  display:block;
+  height:50px;
+  font-size:12px;
+  font-style:normal;
+  margin:0px;
+  padding:0px 10px 0px 15px;
+  text-align:left;
+  }
+
+  .site-category li ul a:hover, .menubar li ul li:hover a{
+  background: rgb(71,71,71);
+  border:0px;
+  color:#ffffff;
+  text-decoration:none;
+  }
+
+
+  @media (max-width: 995px){
+    .site-category{
+      font-size:15px;
+    }
+
+    .site-category li a{
+      padding:0px 15px;
+      line-height:50px;
+    }
+  }
+
+  @media (max-width: 600px){
+    .site-category{
+      font-size:12px;
+    }
+
+    .site-category li a{
+      padding:0px 8px;
+      line-height:40px;
+    }
+  }
+
+  @media (max-width: 375px){
+    .site-category{
+      font-size:10px;
+    }
+
+    .site-category li a{
+      padding:0px 5px;
+      line-height:35px;
+    }
+  }
+
+
+/* end custom scss snippet */
